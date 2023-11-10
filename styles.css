@@ -1,13 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f4f4f4;
+    background: linear-gradient(45deg, rgb(243, 17, 213)111 0%,rgb(255, 136, 136)00%);
 }
 
 h1 {
-    color: #333;
+    color: #000000;
 }
 
 p {
-    color: #666;
+    color: #720f0f;
+}
+button { border-radius: 8px;
+    box-shadow: 20px;
+}
+button :hover {
+    transform: scale(1.1);
+            transition: all 0.5s; }
+        .button {
+            background-color: rgb(255, 255, 255) ;
+            border-color: white;
+            color: rgb(0, 0, 0);
 }
